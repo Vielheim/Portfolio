@@ -15,10 +15,11 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- can change the web icon here -->
     <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
 
     <!-- Put here your site title -->
-    <title>[Your name here] | Developer</title>
+    <title>Terence Ho</title>
     <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
     <meta name="keywords" content="[username], [name], skill" />
     <!-- Improve your SEO by adding a small descrption of you -->
@@ -34,8 +35,6 @@
       ScrollReveal({ reset: false });
     </script>
 
-    <!-- Remove this script once you setup your custom portfolio -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
   </head>
 
   <!-- Follow the HTML instructions to create your stunning portfolio website -->
@@ -46,12 +45,12 @@
     <div id="hero" class="jumbotron">
       <div class="container">
         <h1 class="hero-title" class="load-hidden">
-          Hi, my name is <span class="text-color-main">Your Name</span>
+          Hi! My name is <span class="text-color-main">Terence</span>
           <br />
-          I'm the Unknown Developer.
+          I'm a Year 2 Computer Science student from NUS.
         </h1>
         <p class="hero-cta" class="load-hidden">
-          <a class="cta-btn cta-btn--hero" href="#about">Know more</a>
+          <a class="cta-btn cta-btn--hero" href="#about">Find out more</a>
         </p>
       </div>
     </div>
@@ -60,15 +59,16 @@
     <!-- **** About Section **** -->
     <section id="about">
       <div class="container">
+        <!-- about me -->
         <h2 class="section-title">About me</h2>
-        <div class="row about-wrapper">
+        <div class="row about-wrapper" style="margin-bottom: 50px;">
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__image">
               <img
                 class="img-fluid rounded shadow-lg"
                 height="auto"
                 width="300px"
-                src="./assets/profile.jpg"
+                src="./assets/vielheim.png"
                 alt="Profile Image"
               />
             </div>
@@ -76,20 +76,24 @@
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info">
               <p class="about-wrapper__info-text">
-                This is where you can describe about yourself. The more you
-                describe about yourself, the more chances you can!
+                I am an aspiring Software Enginner, and I enjoy the constant challenges and learning the field of Computer Science provides.
               </p>
               <p class="about-wrapper__info-text">
-                Extra Information about you! like hobbies and your goals.
+                I believe no knowledge you learn is in vain. Hence, I strive to expose myself to the different fields of CS, such as: Artificial Intelligence, Full-stack Development and even Game Development.
               </p>
               <span class="d-flex mt-3">
-                <a target="_blank" class="cta-btn cta-btn--resume" href="">
+                <a target="_blank" class="cta-btn cta-btn--resume" href="./assets/resume.pdf">
                   View Resume
                 </a>
               </span>
             </div>
           </div>
         </div>
+
+        <!-- skills and competencies -->
+        <h2 class="section-title">Skills</h2>
+  
+
       </div>
     </section>
     <!-- /END About Section -->
@@ -104,29 +108,30 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Project Title 0</h3>
+                <h3 class="project-wrapper__text-title">Smart Brain</h3>
                 <div>
+                  <p class="mb-3">
+                    React | JS | Express | PostgreSQL 
+                  </p>
+                  <br/>
                   <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                    Smart Brain is a Web app that utilises the API from Clarifai Face Detection Models to detect faces in submitted image URLs.
+                    The app saves user details and their submissions made in PostgreSQL. 
                   </p>
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://smart-brain-vielheim.herokuapp.com">
                   See Live
                 </a>
-                <a target="_blank" class="cta-btn text-color-main" href="#!">
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/Vielheim/SmartBrain">
                   Source Code
                 </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
+                <a href="https://smart-brain-vielheim.herokuapp.com" target="_blank">
                   <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/project.jpg" />
+                    <img class="img-fluid" src="./assets/smartbrain.png" />
                   </div>
                 </a>
               </div>
@@ -138,29 +143,29 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Project Title 1</h3>
+                <h3 class="project-wrapper__text-title">SNUS</h3>
                 <div>
                   <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                    Kotlin | Google Firebase
+                  </p>
+                  <p class="mb-4">
+                    SNUS is an all-in-one student lifestyle application designed for NUS Computing students.
+                    It features a Calendar for tracking daily schedules, Chats for social networking and Modules to check out the latest information regarding their favourite modules.
                   </p>
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://drive.google.com/file/d/1AjEb1vUZuSQqccuRrCsKkLqi_7a0hce4/view">
                   See Live
                 </a>
-                <a target="_blank" class="cta-btn text-color-main" href="#!">
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/Vielheim/SNUS">
                   Source Code
                 </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
+                <a href="https://drive.google.com/file/d/1AjEb1vUZuSQqccuRrCsKkLqi_7a0hce4/view" target="_blank">
                   <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/project.jpg" />
+                    <img class="img-fluid" src="./assets/snus.png" />
                   </div>
                 </a>
               </div>
@@ -172,53 +177,256 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Project Title 2</h3>
+                <h3 class="project-wrapper__text-title">PIVOT</h3>
                 <div>
                   <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                    Java | JavaFX | CSS
+                  </p>
+                  <p class="mb-4">
+                    PIVOT is a desktop application to assist the police investigators in keeping track of their investigations and relevant information. 
+                    While it has a GUI, most of the user interactions happen using a CLI (Command Line Interface).
+                    Developed as part of CS2103 Software Engineering Team Project.
                   </p>
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://ay2021s1-cs2103-f09-2.github.io/tp/">
                   See Live
                 </a>
-                <a target="_blank" class="cta-btn text-color-main" href="#!">
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/AY2021S1-CS2103-F09-2/tp">
                   Source Code
                 </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
+                <a href="https://ay2021s1-cs2103-f09-2.github.io/tp/" target="_blank">
                   <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/project.jpg" />
+                    <img class="img-fluid" src="./assets/pivot.png" />
                   </div>
                 </a>
               </div>
             </div>
           </div>
           <!-- /END Project -->
+
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Rest In Peace</h3>
+                <div>
+                  <p class="mb-4">
+                    Unreal Engine 4
+                  </p>
+                  <p class="mb-4">
+                    Rest In Peace is a top down 3rd person action game. 
+                    Transported to an alternate world overrun by zombies, the protagonist has to collect energy crystals spread across the map and escape this twisted world before he is caught.
+                    Developed as part of CS3247 Game Development Team Project.
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://uvents.nus.edu.sg/event/18th-steps/module/CS3247/project/1">
+                  See Live
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="https://uvents.nus.edu.sg/event/18th-steps/module/CS3247/project/1" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/rip.png" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
         </div>
       </div>
     </section>
     <!-- /END Projects Section -->
 
+    <!-- **** Work Experience Section **** -->
+    <section id="experience">
+      <div class="container">
+        <h2 class="section-title">Work and Education</h2>     
+
+        <!-- each row is an experience -->
+        <div class="row" style="margin-bottom: 20px;">
+          <div class="col-lg-4 col-sm-12">
+            <div class="experience-wrapper__text" >
+              <h3 class="experience-wrapper__text-title">May 2021 - Present</h3>
+              <hr style="margin: 0 25% 0 0; border: solid 1px;"/>
+              
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="experience-wrapper__text">
+              <div>
+                <h3 class="experience-wrapper__text-title">Student Internship Programme</h3>
+                <p class="mb-4">
+                  <a href="https://net6tem.com/en/" target="_blank" style="color: white;">Net6tem Pte. Ltd.</a>
+                </p>
+                <p class="mb-4">
+                  Responsible for full-stack development of a green-field web application.
+                  We aim to deliver an all-in-one project management software that assist companies in managing their professional services.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /END experience -->
+
+
+        <!-- each row is an experience -->
+        <div class="row" style="margin-bottom: 20px;">
+          <div class="col-lg-4 col-sm-12">
+            <div class="experience-wrapper__text">
+              <h3 class="experience-wrapper__text-title">Jan - May 2021</h3>
+              <hr style="margin: 0 25% 0 0; border: solid 1px;"/>
+
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="experience-wrapper__text">
+              <div>
+                <h3 class="experience-wrapper__text-title">Academic Year 2 | Semester 2</h3>
+                  <p class="mb-4">CS2102 Database Systems</p>
+                  <p class="mb-4">CS2105 Computer Networks</p>
+                  <p class="mb-4">CS3247 Game Development</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /END experience -->
+
+        <!-- each row is an experience -->
+        <div class="row" style="margin-bottom: 20px;">
+          <div class="col-lg-4 col-sm-12">
+            <div class="experience-wrapper__text">
+              <h3 class="experience-wrapper__text-title">Aug - Dec 2020</h3>
+              <hr style="margin: 0 25% 0 0; border: solid 1px;"/>
+
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="experience-wrapper__text">
+              <div>
+                <h3 class="experience-wrapper__text-title">Academic Year 2 | Semester 1</h3>
+                  <p class="mb-4">CS2103 Software Engineering</p>
+                  <p class="mb-4">CS3241 Computer Graphics</p>
+                  <p class="mb-4">CS3243 Intro. to Artificial Intelligence</p>
+                  <p class="mb-4">ST2334 Probability and Statistics</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /END experience -->
+        
+        <!-- each row is an experience -->
+        <div class="row" style="margin-bottom: 20px;">
+          <div class="col-lg-4 col-sm-12">
+            <div class="experience-wrapper__text">
+              <h3 class="experience-wrapper__text-title">May - Aug 2020</h3>
+              <hr style="margin: 0 25% 0 0; border: solid 1px;"/>
+              
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="experience-wrapper__text">
+              <div>
+                <h3 class="experience-wrapper__text-title">Summer Vacation</h3>
+                  <p class="mb-4">CP2106 Independent Software Development Project (Orbital)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /END experience -->
+
+        <!-- each row is an experience -->
+        <div class="row" style="margin-bottom: 20px;">
+          <div class="col-lg-4 col-sm-12">
+            <div class="experience-wrapper__text">
+              <h3 class="experience-wrapper__text-title">Jan - May 2020</h3>
+              <hr style="margin: 0 25% 0 0; border: solid 1px;"/>
+              
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="experience-wrapper__text">
+              <div>
+                <h3 class="experience-wrapper__text-title">Academic Year 1 | Semester 2</h3>
+                  <p class="mb-4">CS2100 Computer Organisation</p>
+                  <p class="mb-4">CS2040S Data Structures and Algorithms</p>
+                  <p class="mb-4">MA1521 Calculus for Computing</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /END experience -->
+
+        <!-- each row is an experience -->
+        <div class="row" style="margin-bottom: 20px;">
+          <div class="col-lg-4 col-sm-12">
+            <div class="experience-wrapper__text">
+              <h3 class="experience-wrapper__text-title">Aug - Dec 2019</h3>
+              <hr style="margin: 0 25% 0 0; border: solid 1px;"/>
+              
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="experience-wrapper__text">
+              <div>
+                <h3 class="experience-wrapper__text-title">Academic Year 1 | Semester 1</h3>
+                  <p class="mb-4">CS1231S Discrete Structures</p>
+                  <p class="mb-4">CS2030 Programming Methodology II</p>
+                  <p class="mb-4">MA1101R Linear Algebra I</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /END experience -->
+
+        <!-- each row is an experience -->
+        <div class="row" style="margin-bottom: 20px;">
+          <div class="col-lg-4 col-sm-12">
+            <div class="experience-wrapper__text">
+              <h3 class="experience-wrapper__text-title">Preadmission</h3>
+              <hr style="margin: 0 25% 0 0; border: solid 1px;"/>
+              
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="experience-wrapper__text">
+              <div>
+                <h3 class="experience-wrapper__text-title">Special Term</h3>
+                  <p class="mb-4">CS1010X Programming Methodology</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /END experience -->
+          
+      </div>
+    </section>
+    
+    <!-- /END Work Experience Section -->
+
     <!-- **** Contact Section **** -->
     <section id="contact">
       <div class="container">
-        <h2 class="section-title">Contact</h2>
-        <div class="contact-wrapper">
-          <p class="contact-wrapper__text">[Put your call to action here]</p>
-          <a
-            target="_blank"
-            class="cta-btn cta-btn--resume"
-            href="mailto:example@email.com"
-            >Call to Action</a
-          >
-        </div>
+        <h2 class="section-title">Contact Me</h2>     
+          <div class="social-links">
+            <a href="mailto:e0388997@u.nus.edu" target="_blank">
+              <i class="fa fa-envelope" style="color: #000;"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/thwy/" target="_blank">
+              <i class="fa fa-linkedin fa-inverse" style="color: #000"></i>
+            </a>
+            <a href="https://github.com/Vielheim" target="_blank">
+              <i class="fa fa-github fa-inverse" style="color: #000"></i>
+            </a>
+          </div>
       </div>
     </section>
     <!-- /END Contact Section -->
@@ -229,20 +437,6 @@
         <a href="#top" class="back-to-top">
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
-        <div class="social-links">
-          <a href="#!" target="_blank">
-            <i class="fa fa-twitter fa-inverse"></i>
-          </a>
-          <a href="#!" target="_blank">
-            <i class="fa fa-codepen fa-inverse"></i>
-          </a>
-          <a href="#!" target="_blank">
-            <i class="fa fa-linkedin fa-inverse"></i>
-          </a>
-          <a href="#!" target="_blank">
-            <i class="fa fa-github fa-inverse"></i>
-          </a>
-        </div>
 
         <hr />
 
@@ -252,28 +446,8 @@
           <a href="https://github.com/cobidev" target="_blank"
             >Jacobo Martínez</a
           >
-        </p>
-
-        <!-- Remove this paragraph once you setup your custom portfolio -->
-        <p class="mt-3 pt-3">
-          <a
-            class="github-button"
-            href="https://github.com/cobidev/simplefolio/fork"
-            data-icon="octicon-repo-forked"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Fork ntkme/github-buttons on GitHub"
-            >Fork</a
-          >
-          <a
-            class="github-button"
-            href="https://github.com/cobidev/simplefolio"
-            data-icon="octicon-star"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Star cobidev/simplefolio on GitHub"
-            >Star</a
-          >
+          <br/>
+          Personal Styling and Additional Sections by Terence Ho
         </p>
       </div>
     </footer>
