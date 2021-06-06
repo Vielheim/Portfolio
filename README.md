@@ -1,5 +1,8 @@
 # Simplefolio ⚡️ [![GitHub](https://img.shields.io/github/license/cobidev/simplefolio?color=blue)](https://github.com/cobidev/simplefolio/blob/master/LICENSE.md) ![GitHub stars](https://img.shields.io/github/stars/cobidev/simplefolio) ![GitHub forks](https://img.shields.io/github/forks/cobidev/simplefolio)
 
+## Acknowledgements:  
+The template for simplefolio was built by Jacobe Martinez [https://github.com/cobidev](https://github.com/cobidev). 
+
 ## A minimal portfolio template for Developers!
 
 <h2 align="center">
