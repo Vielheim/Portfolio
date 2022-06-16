@@ -11,61 +11,72 @@
 -->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- can change the web icon here -->
-    <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- can change the web icon here -->
+        <link
+            rel="shortcut icon"
+            type="image/png"
+            href="./assets/favicon.png"
+        />
 
-    <!-- dev icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.11.0/devicon.min.css">
+        <!-- dev icons -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.11.0/devicon.min.css"
+        />
 
-    <!-- Put here your site title -->
-    <title>Terence Ho</title>
-    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="Vielheim, Terence, Java, Python, JavaScript, React"/>
-    <!-- Improve your SEO by adding a small descrption of you -->
-    <meta name="description" content="Welcome to my website! | Terence" />
+        <!-- Put here your site title -->
+        <title>Terence Ho</title>
+        <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+        <meta
+            name="keywords"
+            content="Vielheim, Terence, Java, Python, JavaScript, React"
+        />
+        <!-- Improve your SEO by adding a small descrption of you -->
+        <meta name="description" content="Welcome to my website! | Terence" />
 
-    <!-- Required librarys -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script>
-      ScrollReveal({ reset: false });
-    </script>
+        <!-- Required librarys -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script>
+            ScrollReveal({ reset: false });
+        </script>
+    </head>
 
-  </head>
+    <!-- Follow the HTML instructions to create your stunning portfolio website -->
+    <body>
+        <div id="top"></div>
 
-  <!-- Follow the HTML instructions to create your stunning portfolio website -->
-  <body>
-    <div id="top"></div>
+        <!-- **** Hero Section **** -->
+        <div id="hero" class="jumbotron">
+            <div class="container">
+                <h1 class="hero-title" class="load-hidden">
+                    Hi! My name is <span class="text-color-main">Terence</span>
+                    <br />
+                    I'm a Year 3 Computer Science student from NUS.
+                </h1>
+                <p class="hero-cta" class="load-hidden">
+                    <a class="cta-btn cta-btn--hero" href="#about"
+                        >Find out more</a
+                    >
+                </p>
+            </div>
+        </div>
+        <!-- /END Hero Section -->
 
-    <!-- **** Hero Section **** -->
-    <div id="hero" class="jumbotron">
-      <div class="container">
-        <h1 class="hero-title" class="load-hidden">
-          Hi! My name is <span class="text-color-main">Terence</span>
-          <br />
-          I'm a Year 3 Computer Science student from NUS.
-        </h1>
-        <p class="hero-cta" class="load-hidden">
-          <a class="cta-btn cta-btn--hero" href="#about">Find out more</a>
-        </p>
-      </div>
-    </div>
-    <!-- /END Hero Section -->
-
-    <!-- **** About Section **** -->
-    <section id="about" >
-      <div class="container">
-        <!-- about me -->
-        <h2 class="section-title">About me</h2>
-        <div class="row about-wrapper" style="margin-bottom: 40px;">
-          <!-- <div class="col-md-6 col-sm-12">
+        <!-- **** About Section **** -->
+        <section id="about">
+            <div class="container">
+                <!-- about me -->
+                <h2 class="section-title">About me</h2>
+                <div class="row about-wrapper" style="margin-bottom: 40px">
+                    <!-- <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__image">
               <img
                 class="img-fluid rounded shadow-lg"
@@ -76,643 +87,1209 @@
               />
             </div>
           </div> -->
-          <div class="col-md-12 col-sm-12">
-            <div class="about-wrapper__info">
-              <p class="about-wrapper__info-text">
-                I am an aspiring Software Engineer, and I enjoy the constant challenges and learning the field of Computer Science provides.
-              </p>
-              <p class="about-wrapper__info-text">
-                I believe no knowledge you learn is in vain. Hence, I strive to expose myself to the different fields of CS, such as: Artificial Intelligence, Web Development (Full-Stack) and even Game Development.
-              </p>
-              <span class="d-flex mt-3" style="justify-content: flex-end;">
-                <a target="_blank" class="cta-btn cta-btn--resume" href="./assets/resume.pdf">
-                  View Resume
-                </a>
-              </span>
+                    <div class="col-md-12 col-sm-12">
+                        <div class="about-wrapper__info">
+                            <p class="about-wrapper__info-text">
+                                I am an aspiring Software Engineer, and I enjoy
+                                the constant challenges and learning the field
+                                of Computer Science provides.
+                            </p>
+                            <p class="about-wrapper__info-text">
+                                I believe in continuous learning and exposure.
+                                Hence, I take up projects in different
+                                disciplines to expose myself to different
+                                Software Engineering paradigms. Some of these
+                                fields include Web Development, Android and iOS
+                                development, Database Systems and even AI/ML!
+                            </p>
+                            <p class="about-wrapper__info-text">
+                                In the long term, I am looking to become a
+                                Back-End Engineer, but I am open to
+                                opportunities.
+                            </p>
+                            <span
+                                class="d-flex mt-3"
+                                style="justify-content: flex-end"
+                            >
+                                <a
+                                    target="_blank"
+                                    class="cta-btn cta-btn--resume"
+                                    href="./assets/resume.pdf"
+                                >
+                                    View Resume
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Work Experience -->
+                <h2 class="section-title">Work Experience</h2>
+                <!-- experience -->
+                <div class="row about-wrapper" style="margin-bottom: 30px">
+                    <div class="col-md-12 col-sm-12">
+                        <div class="row">
+                            <!-- left col -->
+                            <div
+                                class="col-md-6 col-sm-12"
+                                style="margin-bottom: 20px"
+                            >
+                                <!-- Internship Title -->
+                                <div class="row">
+                                    <div class="col-md-12 col-sm-12">
+                                        <h3
+                                            class="about-wrapper__info-text-title"
+                                        >
+                                            Software Engineer Intern
+                                        </h3>
+                                    </div>
+                                </div>
+
+                                <!-- Tech Stack -->
+                                <div class="row">
+                                    <div class="col-md-12 col-sm-12">
+                                        <p
+                                            class="mb-4"
+                                            style="margin-bottom: 10px"
+                                        >
+                                            React.js | Node.js (Express) | MySQL
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <!-- Company Logo -->
+                                <div class="row" style="margin-bottom: 15px">
+                                    <div class="col-md-12 col-sm-12">
+                                        <a
+                                            href="https://net6tem.com/en/"
+                                            target="_blank"
+                                        >
+                                            <div
+                                                data-tilt
+                                                class="thumbnail rounded"
+                                            >
+                                                <img
+                                                    class="img-fluid"
+                                                    src="./assets/logo-EN-net6tem.png"
+                                                    style="
+                                                        background-color: white;
+                                                        padding: 10px;
+                                                    "
+                                                />
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- Company name -->
+                                <div class="row">
+                                    <div
+                                        class="col-md-12 col-sm-12"
+                                        style="margin-bottom: 10px"
+                                    >
+                                        <a
+                                            href="https://net6tem.com/en/"
+                                            target="_blank"
+                                            style="color: white"
+                                            >Net6tem Pte. Ltd.</a
+                                        >
+                                    </div>
+                                </div>
+
+                                <!-- Period -->
+                                <div class="row">
+                                    <div
+                                        class="col-md-12 col-sm-12"
+                                        style="margin-bottom: 10px"
+                                    >
+                                        <h3 class="mb-4">May - Aug 2021</h3>
+                                    </div>
+                                </div>
+
+                                <!-- break -->
+                                <div class="row">
+                                    <div
+                                        class="col-md-12 col-sm-12"
+                                        style="margin-bottom: 5px"
+                                    >
+                                        <hr
+                                            style="
+                                                margin: 0 10% 5%;
+                                                border: solid 1px;
+                                            "
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Right Column -->
+                            <!-- description -->
+                            <div
+                                class="col-md-6 col-sm-12"
+                                style="margin-bottom: 20px"
+                            >
+                                <div class="row">
+                                    <div class="col-md-12 col-sm-12">
+                                        <p
+                                            class="mb-4"
+                                            style="
+                                                margin-left: 30px;
+                                                margin-right: 30px;
+                                            "
+                                        >
+                                            I was a Full-Stack Web Developer
+                                            working on a Web Application that
+                                            serves Net6tem's Human Resources
+                                            Department in managing the company's
+                                            internal operations.
+                                        </p>
+
+                                        <p
+                                            class="mb-4"
+                                            style="
+                                                margin-left: 30px;
+                                                margin-right: 30px;
+                                            "
+                                        >
+                                            I was involved in the
+                                            conceptualisation and UI/UX design
+                                            of the app, coming up with
+                                            wireframes and user stories.
+                                        </p>
+
+                                        <p
+                                            class="mb-4"
+                                            style="
+                                                margin-left: 30px;
+                                                margin-right: 30px;
+                                            "
+                                        >
+                                            I also developed the front-end pages
+                                            and navigation components using
+                                            React.js. I also set up and
+                                            maintained the end-points to
+                                            communicate with the back-end
+                                            server. In addition, I created REST
+                                            APIs to expose the back-end Express
+                                            server's functionalities, and
+                                            managed the data using a MySQL
+                                            database.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end work experience -->
+
+                <!-- skills and competencies -->
+                <h2 class="section-title">Skills</h2>
+                <!-- each row is a skill -->
+                <!-- programming lang -->
+                <div class="row about-wrapper" style="margin-bottom: 30px">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="about-wrapper__info-text">
+                            <h3 class="about-wrapper__info-text-title">
+                                Programming Languages
+                            </h3>
+                            <hr style="margin: 0 10% 5%; border: solid 1px" />
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12">
+                                <div
+                                    style="
+                                        display: flex;
+                                        margin: 10px 25%;
+                                        align-items: center;
+                                    "
+                                >
+                                    <i
+                                        class="devicon-java-plain"
+                                        style="font-size: 5em"
+                                    ></i>
+                                    <p
+                                        style="
+                                            display: flex;
+                                            margin: 0 10px;
+                                            align-items: center;
+                                        "
+                                    >
+                                        Java
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <div
+                                    style="
+                                        display: flex;
+                                        margin: 10px 25%;
+                                        align-items: center;
+                                    "
+                                >
+                                    <i
+                                        class="devicon-javascript-plain"
+                                        style="font-size: 5em"
+                                    ></i>
+                                    <p
+                                        style="
+                                            display: flex;
+                                            margin: 0 10px;
+                                            align-items: center;
+                                        "
+                                    >
+                                        JavaScript
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div
+                                class="col-md-6 col-sm-12"
+                                style="display: flex"
+                            >
+                                <div
+                                    style="
+                                        display: flex;
+                                        margin: 10px 25%;
+                                        align-items: center;
+                                    "
+                                >
+                                    <i
+                                        class="devicon-python-plain"
+                                        style="font-size: 5em"
+                                    ></i>
+                                    <p
+                                        style="
+                                            display: flex;
+                                            margin: 0 10px;
+                                            align-items: center;
+                                        "
+                                    >
+                                        Python
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div
+                                class="col-md-6 col-sm-12"
+                                style="display: flex"
+                            >
+                                <div
+                                    style="
+                                        display: flex;
+                                        margin: 10px 25%;
+                                        align-items: center;
+                                    "
+                                >
+                                    <i
+                                        class="devicon-swift-plain"
+                                        style="font-size: 5em"
+                                    ></i>
+                                    <p
+                                        style="
+                                            display: flex;
+                                            margin: 0 10px;
+                                            align-items: center;
+                                        "
+                                    >
+                                        Swift
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div
+                                class="col-md-6 col-sm-12"
+                                style="display: flex"
+                            >
+                                <div
+                                    style="
+                                        display: flex;
+                                        margin: 10px 25%;
+                                        align-items: center;
+                                    "
+                                >
+                                    <i
+                                        class="devicon-kotlin-plain"
+                                        style="font-size: 5em"
+                                    ></i>
+                                    <p
+                                        style="
+                                            display: flex;
+                                            margin: 0 10px;
+                                            align-items: center;
+                                        "
+                                    >
+                                        Kotlin
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- front end -->
+                <div class="row about-wrapper" style="margin-bottom: 30px">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="about-wrapper__info-text">
+                            <h3 class="about-wrapper__info-text-title">
+                                Front-End
+                            </h3>
+                            <hr style="margin: 0 10% 5%; border: solid 1px" />
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12">
+                                <div
+                                    style="
+                                        display: flex;
+                                        margin: 10px 25%;
+                                        align-items: center;
+                                    "
+                                >
+                                    <i
+                                        class="devicon-react-original"
+                                        style="font-size: 5em"
+                                    ></i>
+                                    <p
+                                        style="
+                                            display: flex;
+                                            margin: 0 10px;
+                                            align-items: center;
+                                        "
+                                    >
+                                        React
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <div
+                                    style="
+                                        display: flex;
+                                        margin: 10px 25%;
+                                        align-items: center;
+                                    "
+                                >
+                                    <i
+                                        class="devicon-html5-plain"
+                                        style="font-size: 5em"
+                                    ></i>
+                                    <p
+                                        style="
+                                            display: flex;
+                                            margin: 0 10px;
+                                            align-items: center;
+                                        "
+                                    >
+                                        HTML
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12">
+                                <div
+                                    style="
+                                        display: flex;
+                                        margin: 10px 25%;
+                                        align-items: center;
+                                    "
+                                >
+                                    <i
+                                        class="devicon-css3-plain"
+                                        style="font-size: 5em"
+                                    ></i>
+                                    <p
+                                        style="
+                                            display: flex;
+                                            margin: 0 10px;
+                                            align-items: center;
+                                        "
+                                    >
+                                        CSS
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <div
+                                    style="
+                                        display: flex;
+                                        margin: 10px 25%;
+                                        align-items: center;
+                                    "
+                                >
+                                    <i
+                                        class="devicon-bootstrap-plain"
+                                        style="font-size: 5em"
+                                    ></i>
+                                    <p
+                                        style="
+                                            display: flex;
+                                            margin: 0 10px;
+                                            align-items: center;
+                                        "
+                                    >
+                                        Bootstrap
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Back end -->
+                <div class="row about-wrapper" style="margin-bottom: 30px">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="about-wrapper__info-text">
+                            <h3 class="about-wrapper__info-text-title">
+                                Back-End
+                            </h3>
+                            <hr style="margin: 0 10% 5%; border: solid 1px" />
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12">
+                                <div
+                                    style="
+                                        display: flex;
+                                        margin: 10px 25%;
+                                        align-items: center;
+                                    "
+                                >
+                                    <i
+                                        class="devicon-postgresql-plain"
+                                        style="font-size: 5em"
+                                    ></i>
+                                    <p
+                                        style="
+                                            display: flex;
+                                            margin: 0 10px;
+                                            align-items: center;
+                                        "
+                                    >
+                                        PostgreSQL
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <div
+                                    style="
+                                        display: flex;
+                                        margin: 10px 25%;
+                                        align-items: center;
+                                    "
+                                >
+                                    <i
+                                        class="devicon-mysql-plain"
+                                        style="font-size: 5em"
+                                    ></i>
+                                    <p
+                                        style="
+                                            display: flex;
+                                            margin: 0 10px;
+                                            align-items: center;
+                                        "
+                                    >
+                                        MySQL
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12">
+                                <div
+                                    style="
+                                        display: flex;
+                                        margin: 10px 25%;
+                                        align-items: center;
+                                    "
+                                >
+                                    <i
+                                        class="devicon-nodejs-plain"
+                                        style="font-size: 5em"
+                                    ></i>
+                                    <p
+                                        style="
+                                            display: flex;
+                                            margin: 0 10px;
+                                            align-items: center;
+                                        "
+                                    >
+                                        NodeJS
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <div
+                                    style="
+                                        display: flex;
+                                        margin: 10px 25%;
+                                        align-items: center;
+                                    "
+                                >
+                                    <i
+                                        class="devicon-express-original-wordmark"
+                                        style="font-size: 5em"
+                                    ></i>
+                                    <p
+                                        style="
+                                            display: flex;
+                                            margin: 0 10px;
+                                            align-items: center;
+                                        "
+                                    >
+                                        ExpressJS
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12">
+                                <div
+                                    style="
+                                        display: flex;
+                                        margin: 10px 25%;
+                                        align-items: center;
+                                    "
+                                >
+                                    <i
+                                        class="devicon-firebase-plain"
+                                        style="font-size: 5em"
+                                    ></i>
+                                    <p
+                                        style="
+                                            display: flex;
+                                            margin: 0 10px;
+                                            align-items: center;
+                                        "
+                                    >
+                                        Firebase
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Other tools -->
+                <div class="row about-wrapper" style="margin-bottom: 30px">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="about-wrapper__info-text">
+                            <h3 class="about-wrapper__info-text-title">
+                                Others
+                            </h3>
+                            <hr style="margin: 0 10% 5%; border: solid 1px" />
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12">
+                                <div
+                                    style="
+                                        display: flex;
+                                        margin: 10px 25%;
+                                        align-items: center;
+                                    "
+                                >
+                                    <i
+                                        class="devicon-git-plain"
+                                        style="font-size: 5em"
+                                    ></i>
+                                    <p
+                                        style="
+                                            display: flex;
+                                            margin: 0 10px;
+                                            align-items: center;
+                                        "
+                                    >
+                                        Git
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <div
+                                    style="
+                                        display: flex;
+                                        margin: 10px 25%;
+                                        align-items: center;
+                                    "
+                                >
+                                    <i
+                                        class="devicon-android-plain"
+                                        style="font-size: 5em"
+                                    ></i>
+                                    <p
+                                        style="
+                                            display: flex;
+                                            margin: 0 10px;
+                                            align-items: center;
+                                        "
+                                    >
+                                        Android
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
+        </section>
+        <!-- /END About Section -->
 
-         <!-- Work Experience -->
-         <h2 class="section-title">Work Experience</h2>
-         <!-- experience -->
-        <div class="row about-wrapper" style="margin-bottom: 30px;">
-          <div class="col-md-12 col-sm-12">
-            <div class="row">
-              <!-- left col -->
-              <div class="col-md-6 col-sm-12" style="margin-bottom: 20px;">
-                <!-- Internship Title -->
-                <div class="row">
-                  <div class="col-md-12 col-sm-12">
-                    <h3 class="about-wrapper__info-text-title">Software Engineer Intern</h3>
-                  </div>
+        <!-- **** Projects Section **** -->
+        <section id="projects">
+            <div class="container">
+                <div class="project-wrapper">
+                    <h2 class="section-title dark-blue-text">Projects</h2>
+
+                    <!-- Each .row is a project -->
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-12">
+                            <div class="project-wrapper__text">
+                                <h3 class="project-wrapper__text-title">
+                                    Smart Brain
+                                </h3>
+                                <div>
+                                    <p class="mb-3">
+                                        React | JS | Express | PostgreSQL
+                                    </p>
+                                    <br />
+                                    <p class="mb-4">
+                                        Smart Brain is a Web app that utilises
+                                        the API from Clarifai Face Detection
+                                        Models to detect faces in submitted
+                                        image URLs. The app saves user details
+                                        and their submissions made in
+                                        PostgreSQL.
+                                    </p>
+                                </div>
+                                <a
+                                    target="_blank"
+                                    class="cta-btn cta-btn--hero"
+                                    href="https://smart-brain-vielheim.herokuapp.com"
+                                >
+                                    See Live
+                                </a>
+                                <a
+                                    target="_blank"
+                                    class="cta-btn text-color-main"
+                                    href="https://github.com/Vielheim/SmartBrain"
+                                >
+                                    Source Code
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-sm-12">
+                            <div class="project-wrapper__image">
+                                <a
+                                    href="https://smart-brain-vielheim.herokuapp.com"
+                                    target="_blank"
+                                >
+                                    <div data-tilt class="thumbnail rounded">
+                                        <img
+                                            class="img-fluid"
+                                            src="./assets/smartbrain.png"
+                                        />
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /END Project -->
+
+                    <!-- Each .row is a project -->
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-12">
+                            <div class="project-wrapper__text">
+                                <h3 class="project-wrapper__text-title">
+                                    SNUS
+                                </h3>
+                                <div>
+                                    <p class="mb-4">Kotlin | Google Firebase</p>
+                                    <p class="mb-4">
+                                        SNUS is an all-in-one student lifestyle
+                                        application designed for NUS Computing
+                                        students. It features a Calendar for
+                                        tracking daily schedules, Chats for
+                                        social networking and Modules to check
+                                        out the latest information regarding
+                                        their favourite modules.
+                                    </p>
+                                </div>
+                                <a
+                                    target="_blank"
+                                    class="cta-btn cta-btn--hero"
+                                    href="https://drive.google.com/file/d/1AjEb1vUZuSQqccuRrCsKkLqi_7a0hce4/view"
+                                >
+                                    See Live
+                                </a>
+                                <a
+                                    target="_blank"
+                                    class="cta-btn text-color-main"
+                                    href="https://github.com/Vielheim/SNUS"
+                                >
+                                    Source Code
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-sm-12">
+                            <div class="project-wrapper__image">
+                                <a
+                                    href="https://drive.google.com/file/d/1AjEb1vUZuSQqccuRrCsKkLqi_7a0hce4/view"
+                                    target="_blank"
+                                >
+                                    <div data-tilt class="thumbnail rounded">
+                                        <img
+                                            class="img-fluid"
+                                            src="./assets/snus.png"
+                                        />
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /END Project -->
+
+                    <!-- Each .row is a project -->
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-12">
+                            <div class="project-wrapper__text">
+                                <h3 class="project-wrapper__text-title">
+                                    PIVOT
+                                </h3>
+                                <div>
+                                    <p class="mb-4">Java | JavaFX | CSS</p>
+                                    <p class="mb-4">
+                                        PIVOT is a desktop application to assist
+                                        the police investigators in keeping
+                                        track of their investigations and
+                                        relevant information. While it has a
+                                        GUI, most of the user interactions
+                                        happen using a CLI (Command Line
+                                        Interface). Developed as part of CS2103
+                                        Software Engineering Team Project.
+                                    </p>
+                                </div>
+                                <a
+                                    target="_blank"
+                                    class="cta-btn cta-btn--hero"
+                                    href="https://ay2021s1-cs2103-f09-2.github.io/tp/"
+                                >
+                                    See Live
+                                </a>
+                                <a
+                                    target="_blank"
+                                    class="cta-btn text-color-main"
+                                    href="https://github.com/AY2021S1-CS2103-F09-2/tp"
+                                >
+                                    Source Code
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-sm-12">
+                            <div class="project-wrapper__image">
+                                <a
+                                    href="https://ay2021s1-cs2103-f09-2.github.io/tp/"
+                                    target="_blank"
+                                >
+                                    <div data-tilt class="thumbnail rounded">
+                                        <img
+                                            class="img-fluid"
+                                            src="./assets/pivot.png"
+                                        />
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /END Project -->
+
+                    <!-- Each .row is a project -->
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-12">
+                            <div class="project-wrapper__text">
+                                <h3 class="project-wrapper__text-title">
+                                    Rest In Peace
+                                </h3>
+                                <div>
+                                    <p class="mb-4">Unreal Engine 4</p>
+                                    <p class="mb-4">
+                                        Rest In Peace is a top down 3rd person
+                                        action game. Transported to an alternate
+                                        world overrun by zombies, the
+                                        protagonist has to collect energy
+                                        crystals spread across the map and
+                                        escape this twisted world before he is
+                                        caught. Developed as part of CS3247 Game
+                                        Development Team Project.
+                                    </p>
+                                </div>
+                                <a
+                                    target="_blank"
+                                    class="cta-btn cta-btn--hero"
+                                    href="https://uvents.nus.edu.sg/event/18th-steps/module/CS3247/project/1"
+                                >
+                                    See Live
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-sm-12">
+                            <div class="project-wrapper__image">
+                                <a
+                                    href="https://uvents.nus.edu.sg/event/18th-steps/module/CS3247/project/1"
+                                    target="_blank"
+                                >
+                                    <div data-tilt class="thumbnail rounded">
+                                        <img
+                                            class="img-fluid"
+                                            src="./assets/rip.png"
+                                        />
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /END Project -->
                 </div>
+            </div>
+        </section>
+        <!-- /END Projects Section -->
 
-                <!-- Tech Stack -->
-                <div class="row">
-                  <div  class="col-md-12 col-sm-12">
-                    <p class="mb-4" style="margin-bottom: 10px;">
-                      React.js | Node.js (Express) | MySQL
-                    </p>
-                  </div>
+        <!-- **** Work Experience Section **** -->
+        <section id="experience">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+
+                <!-- each row is an experience -->
+                <div class="row" style="margin-bottom: 20px">
+                    <div class="col-lg-4 col-sm-12">
+                        <div class="experience-wrapper__text">
+                            <h3 class="experience-wrapper__text-title">
+                                May - Aug 2022
+                            </h3>
+                            <hr style="margin: 0 25% 0 0; border: solid 1px" />
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-sm-12">
+                        <div class="experience-wrapper__text">
+                            <div>
+                                <h3 class="experience-wrapper__text-title">
+                                    Summer Vacation
+                                </h3>
+                                <p class="mb-4">
+                                    CP3202 Student Internship Programme (SIP II)
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <!-- /END experience -->
 
-                <!-- Company Logo -->
-                <div class="row" style="margin-bottom: 15px;">
-                  <div class="col-md-12 col-sm-12">
-                    <a href="https://net6tem.com/en/" target="_blank">
-                      <div data-tilt class="thumbnail rounded">
-                        <img class="img-fluid" src="./assets/logo-EN-net6tem.png" style="background-color: white; padding: 10px;"/>
-                      </div>
+                <!-- each row is an experience -->
+                <div class="row" style="margin-bottom: 20px">
+                    <div class="col-lg-4 col-sm-12">
+                        <div class="experience-wrapper__text">
+                            <h3 class="experience-wrapper__text-title">
+                                Jan - May 2022
+                            </h3>
+                            <hr style="margin: 0 25% 0 0; border: solid 1px" />
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-sm-12">
+                        <div class="experience-wrapper__text">
+                            <div>
+                                <h3 class="experience-wrapper__text-title">
+                                    Academic Year 3 | Semester 2
+                                </h3>
+                                <p class="mb-4">
+                                    CS3217 Software Engineering on Modern
+                                    Application Platforms
+                                </p>
+                                <p class="mb-4">
+                                    CS3223 Database Systems Implementation
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /END experience -->
+
+                <!-- each row is an experience -->
+                <div class="row" style="margin-bottom: 20px">
+                    <div class="col-lg-4 col-sm-12">
+                        <div class="experience-wrapper__text">
+                            <h3 class="experience-wrapper__text-title">
+                                Aug - Dec 2021
+                            </h3>
+                            <hr style="margin: 0 25% 0 0; border: solid 1px" />
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-sm-12">
+                        <div class="experience-wrapper__text">
+                            <div>
+                                <h3 class="experience-wrapper__text-title">
+                                    Academic Year 3 | Semester 1
+                                </h3>
+                                <p class="mb-4">CS2106 Operating Systems</p>
+                                <p class="mb-4">
+                                    CS2107 Intro. to Information Security
+                                </p>
+                                <p class="mb-4">CS3244 Machine Learning</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /END experience -->
+
+                <!-- each row is an experience -->
+                <div class="row" style="margin-bottom: 20px">
+                    <div class="col-lg-4 col-sm-12">
+                        <div class="experience-wrapper__text">
+                            <h3 class="experience-wrapper__text-title">
+                                May - Aug 2021
+                            </h3>
+                            <hr style="margin: 0 25% 0 0; border: solid 1px" />
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-sm-12">
+                        <div class="experience-wrapper__text">
+                            <div>
+                                <h3 class="experience-wrapper__text-title">
+                                    Summer Vacation
+                                </h3>
+                                <p class="mb-4">
+                                    CP3200 Student Internship Programme (SIP)
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /END experience -->
+
+                <!-- each row is an experience -->
+                <div class="row" style="margin-bottom: 20px">
+                    <div class="col-lg-4 col-sm-12">
+                        <div class="experience-wrapper__text">
+                            <h3 class="experience-wrapper__text-title">
+                                Jan - May 2021
+                            </h3>
+                            <hr style="margin: 0 25% 0 0; border: solid 1px" />
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-sm-12">
+                        <div class="experience-wrapper__text">
+                            <div>
+                                <h3 class="experience-wrapper__text-title">
+                                    Academic Year 2 | Semester 2
+                                </h3>
+                                <p class="mb-4">CS2102 Database Systems</p>
+                                <p class="mb-4">CS2105 Computer Networks</p>
+                                <p class="mb-4">CS3247 Game Development</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /END experience -->
+
+                <!-- each row is an experience -->
+                <div class="row" style="margin-bottom: 20px">
+                    <div class="col-lg-4 col-sm-12">
+                        <div class="experience-wrapper__text">
+                            <h3 class="experience-wrapper__text-title">
+                                Aug - Dec 2020
+                            </h3>
+                            <hr style="margin: 0 25% 0 0; border: solid 1px" />
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-sm-12">
+                        <div class="experience-wrapper__text">
+                            <div>
+                                <h3 class="experience-wrapper__text-title">
+                                    Academic Year 2 | Semester 1
+                                </h3>
+                                <p class="mb-4">CS2103 Software Engineering</p>
+                                <p class="mb-4">CS3241 Computer Graphics</p>
+                                <p class="mb-4">
+                                    CS3243 Intro. to Artificial Intelligence
+                                </p>
+                                <p class="mb-4">
+                                    ST2334 Probability and Statistics
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /END experience -->
+
+                <!-- each row is an experience -->
+                <div class="row" style="margin-bottom: 20px">
+                    <div class="col-lg-4 col-sm-12">
+                        <div class="experience-wrapper__text">
+                            <h3 class="experience-wrapper__text-title">
+                                May - Aug 2020
+                            </h3>
+                            <hr style="margin: 0 25% 0 0; border: solid 1px" />
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-sm-12">
+                        <div class="experience-wrapper__text">
+                            <div>
+                                <h3 class="experience-wrapper__text-title">
+                                    Summer Vacation
+                                </h3>
+                                <p class="mb-4">
+                                    CP2106 Independent Software Development
+                                    Project (Orbital)
+                                </p>
+                                <p class="mb-4">
+                                    CS2030 Programming Methodology II (Teaching
+                                    Assistant)
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /END experience -->
+
+                <!-- each row is an experience -->
+                <div class="row" style="margin-bottom: 20px">
+                    <div class="col-lg-4 col-sm-12">
+                        <div class="experience-wrapper__text">
+                            <h3 class="experience-wrapper__text-title">
+                                Jan - May 2020
+                            </h3>
+                            <hr style="margin: 0 25% 0 0; border: solid 1px" />
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-sm-12">
+                        <div class="experience-wrapper__text">
+                            <div>
+                                <h3 class="experience-wrapper__text-title">
+                                    Academic Year 1 | Semester 2
+                                </h3>
+                                <p class="mb-4">CS2100 Computer Organisation</p>
+                                <p class="mb-4">
+                                    CS2040S Data Structures and Algorithms
+                                </p>
+                                <p class="mb-4">
+                                    MA1521 Calculus for Computing
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /END experience -->
+
+                <!-- each row is an experience -->
+                <div class="row" style="margin-bottom: 20px">
+                    <div class="col-lg-4 col-sm-12">
+                        <div class="experience-wrapper__text">
+                            <h3 class="experience-wrapper__text-title">
+                                Aug - Dec 2019
+                            </h3>
+                            <hr style="margin: 0 25% 0 0; border: solid 1px" />
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-sm-12">
+                        <div class="experience-wrapper__text">
+                            <div>
+                                <h3 class="experience-wrapper__text-title">
+                                    Academic Year 1 | Semester 1
+                                </h3>
+                                <p class="mb-4">CS1231S Discrete Structures</p>
+                                <p class="mb-4">
+                                    CS2030 Programming Methodology II
+                                </p>
+                                <p class="mb-4">MA1101R Linear Algebra I</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /END experience -->
+
+                <!-- each row is an experience -->
+                <div class="row" style="margin-bottom: 20px">
+                    <div class="col-lg-4 col-sm-12">
+                        <div class="experience-wrapper__text">
+                            <h3 class="experience-wrapper__text-title">
+                                Preadmission
+                            </h3>
+                            <hr style="margin: 0 25% 0 0; border: solid 1px" />
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-sm-12">
+                        <div class="experience-wrapper__text">
+                            <div>
+                                <h3 class="experience-wrapper__text-title">
+                                    Special Term
+                                </h3>
+                                <p class="mb-4">
+                                    CS1010X Programming Methodology
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /END experience -->
+            </div>
+        </section>
+
+        <!-- /END Work Experience Section -->
+
+        <!-- **** Contact Section **** -->
+        <section id="contact">
+            <div class="container">
+                <h2 class="section-title">Contact Me</h2>
+                <div class="social-links">
+                    <a href="mailto:e0388997@u.nus.edu" target="_blank">
+                        <i class="fa fa-envelope" style="color: #000"></i>
                     </a>
-                  </div>
+                    <a href="https://www.linkedin.com/in/thwy/" target="_blank">
+                        <i
+                            class="fa fa-linkedin fa-inverse"
+                            style="color: #000"
+                        ></i>
+                    </a>
+                    <a href="https://github.com/Vielheim" target="_blank">
+                        <i
+                            class="fa fa-github fa-inverse"
+                            style="color: #000"
+                        ></i>
+                    </a>
                 </div>
-
-                <!-- Company name -->
-                <div class="row">
-                  <div class="col-md-12 col-sm-12" style="margin-bottom: 10px;">
-                    <a href="https://net6tem.com/en/" target="_blank" style="color: white;">Net6tem Pte. Ltd.</a>
-                  </div>
-                </div>
-
-                <!-- Period -->
-                <div class="row">
-                  <div class="col-md-12 col-sm-12" style="margin-bottom: 10px;">
-                    <h3 class="mb-4">May - Aug 2021</h3>
-                  </div>                  
-                </div>
-
-                <!-- break -->
-                <div class="row">
-                  <div class="col-md-12 col-sm-12" style="margin-bottom: 5px;">
-                    <hr style="margin: 0 10% 5%; border: solid 1px;"/>
-                  </div>
-                </div>
-        
-              </div>
-    
-              <!-- Right Column -->
-              <!-- description -->
-              <div class="col-md-6 col-sm-12" style="margin-bottom: 20px;">
-                <div class="row">
-                  <div class="col-md-12 col-sm-12">
-                    <p class="mb-4" style="margin-left: 30px; margin-right: 30px;">
-                      I was a Full-Stack Web Developer working on a Web Application that serves Net6tem's Human Resources Department in managing the company's internal operations.
-                    </p>
-
-                    <p class="mb-4" style="margin-left: 30px; margin-right: 30px;">
-                      I was involved in the conceptualisation and UI/UX design of the app, coming up with wireframes and user stories.
-                    </p>
-
-                    <p class="mb-4" style="margin-left: 30px; margin-right: 30px;">
-                      I also developed the front-end pages and navigation components using React.js. I also set up and maintained the end-points to communicate with the back-end server.
-                      In addition, I created REST APIs to expose the back-end Express server's functionalities, and managed the data using a MySQL database.
-                    </p>
-                  </div>
-                </div>
-              </div>
             </div>
+        </section>
+        <!-- /END Contact Section -->
 
-          </div>
-        </div>
-        <!-- end work experience -->
-
-        <!-- skills and competencies -->
-        <h2 class="section-title">Skills</h2>
-        <!-- each row is a skill -->
-        <!-- programming lang -->
-        <div class="row about-wrapper" style="margin-bottom: 30px;">
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__info-text">
-              <h3 class="about-wrapper__info-text-title">Programming Languages</h3>
-              <hr style="margin: 0 10% 5%; border: solid 1px;"/>
-              
-            </div>
-          </div>
-          <div class="col-md-6 col-sm-12">
-            <div class="row">
-              <div class="col-md-6 col-sm-12">
-                <div style="display: flex; margin: 10px 25%; align-items: center;">
-                  <i class="devicon-java-plain" style="font-size: 5em"></i>
-                  <p style="display: flex; margin: 0 10px; align-items: center;">Java</p>
-                </div>
-              </div>
-              <div class="col-md-6 col-sm-12">
-                <div style="display: flex; margin: 10px 25%; align-items: center;">
-                  <i class="devicon-javascript-plain" style="font-size: 5em"></i>
-                  <p style="display: flex; margin: 0 10px; align-items: center;">JavaScript</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-md-6 col-sm-12" style="display: flex;">
-                <div style="display: flex; margin: 10px 25%; align-items: center;">
-                  <i class="devicon-python-plain" style="font-size: 5em"></i>
-                  <p style="display: flex; margin: 0 10px; align-items: center;">Python</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- front end -->
-        <div class="row about-wrapper" style="margin-bottom: 30px;">
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__info-text">
-              <h3 class="about-wrapper__info-text-title">Front-End</h3>
-              <hr style="margin: 0 10% 5%; border: solid 1px;"/>
-              
-            </div>
-          </div>
-          <div class="col-md-6 col-sm-12">
-            <div class="row">
-              <div class="col-md-6 col-sm-12">
-                <div style="display: flex; margin: 10px 25%; align-items: center;">
-                  <i class="devicon-react-original" style="font-size: 5em"></i>
-                  <p style="display: flex; margin: 0 10px; align-items: center;">React</p>
-                </div>
-              </div>
-              <div class="col-md-6 col-sm-12">
-                <div style="display: flex; margin: 10px 25%; align-items: center;">
-                  <i class="devicon-html5-plain" style="font-size: 5em"></i>
-                  <p style="display: flex; margin: 0 10px; align-items: center;">HTML</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-md-6 col-sm-12">
-                <div style="display: flex; margin: 10px 25%; align-items: center;">
-                  <i class="devicon-css3-plain" style="font-size: 5em"></i>
-                  <p style="display: flex; margin: 0 10px; align-items: center;">CSS</p>
-                </div>
-              </div>
-              <div class="col-md-6 col-sm-12">
-                <div style="display: flex; margin: 10px 25%; align-items: center;">
-                  <i class="devicon-bootstrap-plain" style="font-size: 5em"></i>
-                  <p style="display: flex; margin: 0 10px; align-items: center;">Bootstrap</p>
-                </div>
-              </div>
-            </div>
-            
-          </div>
-        </div>
-
-          <!-- Back end -->
-        <div class="row about-wrapper" style="margin-bottom: 30px;">
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__info-text">
-              <h3 class="about-wrapper__info-text-title">Back-End</h3>
-              <hr style="margin: 0 10% 5%; border: solid 1px;"/>
-              
-            </div>
-          </div>
-          <div class="col-md-6 col-sm-12">
-
-            <div class="row">
-              <div class="col-md-6 col-sm-12">
-                <div style="display: flex; margin: 10px 25%; align-items: center;">
-                  <i class="devicon-postgresql-plain" style="font-size: 5em"></i>
-                  <p style="display: flex; margin: 0 10px; align-items: center;">PostgreSQL</p>
-                </div>
-              </div>
-              <div class="col-md-6 col-sm-12">
-                <div style="display: flex; margin: 10px 25%; align-items: center;">
-                  <i class="devicon-mysql-plain" style="font-size: 5em"></i>
-                  <p style="display: flex; margin: 0 10px; align-items: center;">MySQL</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-md-6 col-sm-12">
-                <div style="display: flex; margin: 10px 25%; align-items: center;">
-                  <i class="devicon-nodejs-plain" style="font-size: 5em"></i>
-                  <p style="display: flex; margin: 0 10px; align-items: center;">NodeJS</p>
-                </div>
-              </div>
-              <div class="col-md-6 col-sm-12">
-                <div style="display: flex; margin: 10px 25%; align-items: center;">
-                  <i class="devicon-express-original-wordmark" style="font-size: 5em"></i>
-                  <p style="display: flex; margin: 0 10px; align-items: center;">ExpressJS</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-md-6 col-sm-12">
-                <div style="display: flex; margin: 10px 25%; align-items: center;">
-                  <i class="devicon-firebase-plain" style="font-size: 5em"></i>
-                  <p style="display: flex; margin: 0 10px; align-items: center;">Firebase</p>
-                </div>
-              </div>
-            </div>
-
-            
-          </div>
-        </div>
-  
-        <!-- Other tools -->
-        <div class="row about-wrapper" style="margin-bottom: 30px;">
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__info-text">
-              <h3 class="about-wrapper__info-text-title">Others</h3>
-              <hr style="margin: 0 10% 5%; border: solid 1px;"/>
-              
-            </div>
-          </div>
-          <div class="col-md-6 col-sm-12">
-            <div class="row">
-              <div class="col-md-6 col-sm-12">
-                <div style="display: flex; margin: 10px 25%; align-items: center;">
-                  <i class="devicon-git-plain" style="font-size: 5em"></i>
-                  <p style="display: flex; margin: 0 10px; align-items: center;">Git</p>
-                </div>
-              </div>
-              <div class="col-md-6 col-sm-12">
-                <div style="display: flex; margin: 10px 25%; align-items: center;">
-                  <i class="devicon-android-plain" style="font-size: 5em"></i>
-                  <p style="display: flex; margin: 0 10px; align-items: center;">Android</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section>
-    <!-- /END About Section -->
-
-    <!-- **** Projects Section **** -->
-    <section id="projects">
-      <div class="container">
-        <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">Projects</h2>
-
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Smart Brain</h3>
-                <div>
-                  <p class="mb-3">
-                    React | JS | Express | PostgreSQL 
-                  </p>
-                  <br/>
-                  <p class="mb-4">
-                    Smart Brain is a Web app that utilises the API from Clarifai Face Detection Models to detect faces in submitted image URLs.
-                    The app saves user details and their submissions made in PostgreSQL. 
-                  </p>
-                </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="https://smart-brain-vielheim.herokuapp.com">
-                  See Live
+        <!-- **** Footer Section **** -->
+        <footer class="footer navbar-static-bottom">
+            <div class="container">
+                <a href="#top" class="back-to-top">
+                    <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
                 </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/Vielheim/SmartBrain">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="https://smart-brain-vielheim.herokuapp.com" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/smartbrain.png" />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
 
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">SNUS</h3>
-                <div>
-                  <p class="mb-4">
-                    Kotlin | Google Firebase
-                  </p>
-                  <p class="mb-4">
-                    SNUS is an all-in-one student lifestyle application designed for NUS Computing students.
-                    It features a Calendar for tracking daily schedules, Chats for social networking and Modules to check out the latest information regarding their favourite modules.
-                  </p>
-                </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="https://drive.google.com/file/d/1AjEb1vUZuSQqccuRrCsKkLqi_7a0hce4/view">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/Vielheim/SNUS">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="https://drive.google.com/file/d/1AjEb1vUZuSQqccuRrCsKkLqi_7a0hce4/view" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/snus.png" />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
+                <hr />
 
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">PIVOT</h3>
-                <div>
-                  <p class="mb-4">
-                    Java | JavaFX | CSS
-                  </p>
-                  <p class="mb-4">
-                    PIVOT is a desktop application to assist the police investigators in keeping track of their investigations and relevant information. 
-                    While it has a GUI, most of the user interactions happen using a CLI (Command Line Interface).
-                    Developed as part of CS2103 Software Engineering Team Project.
-                  </p>
-                </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="https://ay2021s1-cs2103-f09-2.github.io/tp/">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/AY2021S1-CS2103-F09-2/tp">
-                  Source Code
-                </a>
-              </div>
+                <!-- If you give me some credit, will be huge for me :) -->
+                <p class="footer__text">
+                    © 2020 - Template developed by
+                    <a href="https://github.com/cobidev" target="_blank"
+                        >Jacobo Martínez</a
+                    >
+                    <br />
+                </p>
             </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="https://ay2021s1-cs2103-f09-2.github.io/tp/" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/pivot.png" />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
-
-
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Rest In Peace</h3>
-                <div>
-                  <p class="mb-4">
-                    Unreal Engine 4
-                  </p>
-                  <p class="mb-4">
-                    Rest In Peace is a top down 3rd person action game. 
-                    Transported to an alternate world overrun by zombies, the protagonist has to collect energy crystals spread across the map and escape this twisted world before he is caught.
-                    Developed as part of CS3247 Game Development Team Project.
-                  </p>
-                </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="https://uvents.nus.edu.sg/event/18th-steps/module/CS3247/project/1">
-                  See Live
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="https://uvents.nus.edu.sg/event/18th-steps/module/CS3247/project/1" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/rip.png" />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
-
-        </div>
-      </div>
-    </section>
-    <!-- /END Projects Section -->
-
-    <!-- **** Work Experience Section **** -->
-    <section id="experience">
-      <div class="container">
-        <h2 class="section-title">Education</h2>     
-
-         <!-- each row is an experience -->
-         <div class="row" style="margin-bottom: 20px;">
-          <div class="col-lg-4 col-sm-12">
-            <div class="experience-wrapper__text">
-              <h3 class="experience-wrapper__text-title">Aug - Dec 2021</h3>
-              <hr style="margin: 0 25% 0 0; border: solid 1px;"/>
-
-            </div>
-          </div>
-          <div class="col-lg-8 col-sm-12">
-            <div class="experience-wrapper__text">
-              <div>
-                <h3 class="experience-wrapper__text-title">Academic Year 3 | Semester 1</h3>
-                  <p class="mb-4">CS2106 Operating Systems</p>
-                  <p class="mb-4">CS2107 Intro. to Information Security</p>
-                  <p class="mb-4">CS3244 Machine Learning</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- /END experience -->
-
-        <!-- each row is an experience -->
-        <div class="row" style="margin-bottom: 20px;">
-          <div class="col-lg-4 col-sm-12">
-            <div class="experience-wrapper__text" >
-              <h3 class="experience-wrapper__text-title">May - Aug 2021</h3>
-              <hr style="margin: 0 25% 0 0; border: solid 1px;"/>
-              
-            </div>
-          </div>
-          <div class="col-lg-8 col-sm-12">
-            <div class="experience-wrapper__text">
-              <div>
-                <h3 class="experience-wrapper__text-title">Summer Vacation</h3>
-                <p class="mb-4">CP3200 Student Internship Programme (SIP)</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- /END experience -->
-
-
-        <!-- each row is an experience -->
-        <div class="row" style="margin-bottom: 20px;">
-          <div class="col-lg-4 col-sm-12">
-            <div class="experience-wrapper__text">
-              <h3 class="experience-wrapper__text-title">Jan - May 2021</h3>
-              <hr style="margin: 0 25% 0 0; border: solid 1px;"/>
-
-            </div>
-          </div>
-          <div class="col-lg-8 col-sm-12">
-            <div class="experience-wrapper__text">
-              <div>
-                <h3 class="experience-wrapper__text-title">Academic Year 2 | Semester 2</h3>
-                  <p class="mb-4">CS2102 Database Systems</p>
-                  <p class="mb-4">CS2105 Computer Networks</p>
-                  <p class="mb-4">CS3247 Game Development</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- /END experience -->
-
-        <!-- each row is an experience -->
-        <div class="row" style="margin-bottom: 20px;">
-          <div class="col-lg-4 col-sm-12">
-            <div class="experience-wrapper__text">
-              <h3 class="experience-wrapper__text-title">Aug - Dec 2020</h3>
-              <hr style="margin: 0 25% 0 0; border: solid 1px;"/>
-
-            </div>
-          </div>
-          <div class="col-lg-8 col-sm-12">
-            <div class="experience-wrapper__text">
-              <div>
-                <h3 class="experience-wrapper__text-title">Academic Year 2 | Semester 1</h3>
-                  <p class="mb-4">CS2103 Software Engineering</p>
-                  <p class="mb-4">CS3241 Computer Graphics</p>
-                  <p class="mb-4">CS3243 Intro. to Artificial Intelligence</p>
-                  <p class="mb-4">ST2334 Probability and Statistics</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- /END experience -->
-        
-        <!-- each row is an experience -->
-        <div class="row" style="margin-bottom: 20px;">
-          <div class="col-lg-4 col-sm-12">
-            <div class="experience-wrapper__text">
-              <h3 class="experience-wrapper__text-title">May - Aug 2020</h3>
-              <hr style="margin: 0 25% 0 0; border: solid 1px;"/>
-              
-            </div>
-          </div>
-          <div class="col-lg-8 col-sm-12">
-            <div class="experience-wrapper__text">
-              <div>
-                <h3 class="experience-wrapper__text-title">Summer Vacation</h3>
-                  <p class="mb-4">CP2106 Independent Software Development Project (Orbital)</p>
-                  <p class="mb-4">CS2030 Programming Methodology II (Teaching Assistant)</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- /END experience -->
-
-        <!-- each row is an experience -->
-        <div class="row" style="margin-bottom: 20px;">
-          <div class="col-lg-4 col-sm-12">
-            <div class="experience-wrapper__text">
-              <h3 class="experience-wrapper__text-title">Jan - May 2020</h3>
-              <hr style="margin: 0 25% 0 0; border: solid 1px;"/>
-              
-            </div>
-          </div>
-          <div class="col-lg-8 col-sm-12">
-            <div class="experience-wrapper__text">
-              <div>
-                <h3 class="experience-wrapper__text-title">Academic Year 1 | Semester 2</h3>
-                  <p class="mb-4">CS2100 Computer Organisation</p>
-                  <p class="mb-4">CS2040S Data Structures and Algorithms</p>
-                  <p class="mb-4">MA1521 Calculus for Computing</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- /END experience -->
-
-        <!-- each row is an experience -->
-        <div class="row" style="margin-bottom: 20px;">
-          <div class="col-lg-4 col-sm-12">
-            <div class="experience-wrapper__text">
-              <h3 class="experience-wrapper__text-title">Aug - Dec 2019</h3>
-              <hr style="margin: 0 25% 0 0; border: solid 1px;"/>
-              
-            </div>
-          </div>
-          <div class="col-lg-8 col-sm-12">
-            <div class="experience-wrapper__text">
-              <div>
-                <h3 class="experience-wrapper__text-title">Academic Year 1 | Semester 1</h3>
-                  <p class="mb-4">CS1231S Discrete Structures</p>
-                  <p class="mb-4">CS2030 Programming Methodology II</p>
-                  <p class="mb-4">MA1101R Linear Algebra I</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- /END experience -->
-
-        <!-- each row is an experience -->
-        <div class="row" style="margin-bottom: 20px;">
-          <div class="col-lg-4 col-sm-12">
-            <div class="experience-wrapper__text">
-              <h3 class="experience-wrapper__text-title">Preadmission</h3>
-              <hr style="margin: 0 25% 0 0; border: solid 1px;"/>
-              
-            </div>
-          </div>
-          <div class="col-lg-8 col-sm-12">
-            <div class="experience-wrapper__text">
-              <div>
-                <h3 class="experience-wrapper__text-title">Special Term</h3>
-                  <p class="mb-4">CS1010X Programming Methodology</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- /END experience -->
-          
-      </div>
-    </section>
-    
-    <!-- /END Work Experience Section -->
-
-    <!-- **** Contact Section **** -->
-    <section id="contact">
-      <div class="container">
-        <h2 class="section-title">Contact Me</h2>     
-          <div class="social-links">
-            <a href="mailto:e0388997@u.nus.edu" target="_blank">
-              <i class="fa fa-envelope" style="color: #000;"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/thwy/" target="_blank">
-              <i class="fa fa-linkedin fa-inverse" style="color: #000"></i>
-            </a>
-            <a href="https://github.com/Vielheim" target="_blank">
-              <i class="fa fa-github fa-inverse" style="color: #000"></i>
-            </a>
-          </div>
-      </div>
-    </section>
-    <!-- /END Contact Section -->
-
-    <!-- **** Footer Section **** -->
-    <footer class="footer navbar-static-bottom">
-      <div class="container">
-        <a href="#top" class="back-to-top">
-          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
-        </a>
-
-        <hr />
-
-        <!-- If you give me some credit, will be huge for me :) -->
-        <p class="footer__text">
-          © 2020 - Template developed by
-          <a href="https://github.com/cobidev" target="_blank"
-            >Jacobo Martínez</a
-          >
-          <br/>
-        </p>
-      </div>
-    </footer>
-    <!-- /END Footer Section -->
-  </body>
+        </footer>
+        <!-- /END Footer Section -->
+    </body>
 </html>
